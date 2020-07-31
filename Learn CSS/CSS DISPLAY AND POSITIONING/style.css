@@ -82,7 +82,8 @@ footer {
 }
 
 .question {
-  position: static;
+  position: relative;
+  top: 40px;
   text-align: center;
 }
 

@@ -4,7 +4,8 @@ body {
 }
 
 header {
-  position: absolute;
+  position: fixed;
+  z-index: 10;
   width: 100%;
   background-color: #466995;
   border-bottom: 1px solid #466995;
@@ -17,6 +18,8 @@ ul {
 }
 
 li {
+  display: inline-block;
+  width: 80px;
   color: #FFF;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
@@ -73,9 +76,12 @@ p {
 footer {
   background-color: #DBE9EE;
   text-align: center;
+  height: 100px;
 }
 
 .welcome {
+  position: relative;
+  top: 50px;
   background-color: #DBE9EE;
   box-sizing: border-box;
   padding: 40px;
@@ -90,6 +96,7 @@ footer {
 }
 
 .answer {
+  display: inline-block;
   border: 1px solid #466995;
   margin: 20px;
 }

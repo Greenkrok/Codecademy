@@ -138,6 +138,10 @@ a.home {
   font-family: Helvetica, sans-serif;
 }
 
+.space .sample .text {
+  font-family: "Space Mono", monospace;
+}
+
 .bold {
   font-weight: 900;
 }

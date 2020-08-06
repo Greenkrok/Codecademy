@@ -45,6 +45,7 @@ strong {
 /* Header */
 
 .header {
+  font-weight: 900;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.25;

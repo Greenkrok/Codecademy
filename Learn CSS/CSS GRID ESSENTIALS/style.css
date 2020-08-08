@@ -1,5 +1,6 @@
 .grid {
   display: grid;
+  grid-template-columns: 100px 50% 200px;
   border: 2px blue solid;
   width: 400px;
   height: 500px;

@@ -3,7 +3,7 @@
   border: 2px blue solid;
   width: 400px;
   height: 500px;
-  grid-template: 40% 50% 50px / 100px 50% 200px;
+  grid-template: 1fr 1fr 1fr / 3fr 50% 1fr;
 }
 
 .box {

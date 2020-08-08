@@ -9,6 +9,7 @@
 
 .a {
   grid-row: 5 / 7;
+  grid-column: 1 / span 2;
 }
 
 .box {
@@ -16,4 +17,9 @@
   color: black;
   border-radius: 5px;
   border: 2px dodgerblue solid;
+}
+
+.b {
+  grid-column: 2 / span 6;
+  grid-row: 2 / span 3;
 }

@@ -17,20 +17,25 @@ h1, h2 {
 
 header {
   background-color: dodgerblue;
+  grid-area: header;
 }
 
 nav {
   background-color: beige;
+  grid-area: nav;
 }
 
 .left {
   background-color: dodgerblue;
+  grid-area: left;
 }
 
 .right {
   background-color: beige;
+  grid-area: right;
 }
 
 footer {
   background-color: dodgerblue;
+  grid-area: footer;
 }

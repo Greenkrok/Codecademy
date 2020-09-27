@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+}
+
+h1, h2 {
+  font-family: monospace;
+  text-align: center;
+}
+
+header {
+  background-color: dodgerblue;
+}
+
+nav {
+  background-color: beige;
+}
+
+.left {
+  background-color: dodgerblue;
+}
+
+.right {
+  background-color: beige;
+}
+
+footer {
+  background-color: dodgerblue;
+}
